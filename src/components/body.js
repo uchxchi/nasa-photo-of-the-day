@@ -1,6 +1,7 @@
 import React from "react";
 import "./Body.css"
 
+
 export default function Body (props){
     const {info} = props
     return (
