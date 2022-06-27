@@ -2,9 +2,6 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Body from "./components/body"
 
-
-
-
 function App() {
   const [nasaData, setNasaData] = useState({})
 
@@ -24,7 +21,7 @@ if(!nasaData){
     <div>loading...</div>
   )
 }
-// console.log(nasaData)
+
   return (
     <div>
       
