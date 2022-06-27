@@ -12,6 +12,7 @@ div {
 
 p {
     font-size: 1.5rem;
+    
 }
 
 footer {
@@ -32,7 +33,7 @@ export default function Body (props){
             </div>
             <div>
             <p>{info.explanation} </p>
-            <img src= {info.url} alt="nasa" />
+            <img src= {info.url} alt="nasaPhoto" />
             </div>
             <div className="f">
             <footer><b>&copy;  {info.copyright} </b></footer>
