@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import "./App.css";
 import Body from "./components/body"
+
 
 
 
@@ -26,7 +26,7 @@ if(!nasaData){
 }
 // console.log(nasaData)
   return (
-    <div className="App">
+    <div>
       
         <Body info = {nasaData}/>
   
